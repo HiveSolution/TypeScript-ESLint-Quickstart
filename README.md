@@ -38,11 +38,11 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information. But honestly, this is a quickstart. I don't really care about anything you do with this.
 
 <!-- CONTACT -->
 ## Contact
 
-[@renokk](https://twitter.com/renokk)
+Twitter: [@renokk](https://twitter.com/renokk)
 
 Project Link: [https://github.com/HiveSolution/ts-eslint-qs](https://github.com/HiveSolution/ts-eslint-qs)
