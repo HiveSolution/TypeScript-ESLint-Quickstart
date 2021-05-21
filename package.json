@@ -11,7 +11,7 @@
   },
   "author": "HiveSolution",
   "license": "MIT",
-  "private": "true",
+  "private": true,
   "devDependencies": {
     "@types/node": "^15.6.0",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
