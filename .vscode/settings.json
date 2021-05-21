@@ -1,0 +1,10 @@
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": { "source.organizeImports": true },
+  "editor.renderWhitespace": "all",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.useTabStops": false,
+  "files.eol": "\n",
+}

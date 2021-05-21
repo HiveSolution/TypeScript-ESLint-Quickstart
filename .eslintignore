@@ -1,0 +1,5 @@
+# Ignore miscellaneous folders
+.github/
+.vscode/
+node_modules/
+dist/

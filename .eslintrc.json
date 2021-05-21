@@ -1,0 +1,56 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parserOptions": {
+        "project": ["tsconfig.json"],
+        "createDefaultProgram": true
+      },
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "plugin:prettier/recommended"
+      ],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": [
+          "warn",
+          {
+            "allowExpressions": true
+          }
+        ],
+        "prettier/prettier": [
+          "error",
+          {
+            "parser": "typescript",
+            "trailingComma": "none",
+            "singleQuote": true
+          }
+        ],
+        "prefer-const": "warn",
+        "@typescript-eslint/naming-convention": [
+          "warn",
+          {
+            "selector": "memberLike",
+            "modifiers": ["private"],
+            "format": ["camelCase"],
+            "leadingUnderscore": "require"
+          },
+          {
+            "selector": "memberLike",
+            "modifiers": ["public"],
+            "format": ["camelCase", "UPPER_CASE", "snake_case"],
+            "leadingUnderscore": "forbid"
+          },
+          {
+            "selector": "method",
+            "modifiers": ["private"],
+            "format": ["camelCase"],
+            "leadingUnderscore": "forbid"
+          }
+        ],
+        "indent": ["error", 2]
+      }
+    }
+  ]
+}
