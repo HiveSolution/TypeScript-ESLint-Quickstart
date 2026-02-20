@@ -98,7 +98,7 @@ TypeScript-ESLint-Quickstart/
 ### TypeScript (`tsconfig.json`)
 
 - **Target**: `es2020`
-- **Module**: `CommonJS`
+- **Module**: `commonjs`
 - **Strict mode**: enabled
 - **Output directory**: `dist/`
 - **Root directory**: `src/`
