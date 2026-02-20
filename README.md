@@ -113,7 +113,7 @@ Uses the [flat config](https://eslint.org/docs/latest/use/configure/configuratio
 
 Notable rules:
 - `@typescript-eslint/explicit-function-return-type` – warn when return types are omitted
-- `@typescript-eslint/naming-convention` – enforce camelCase private members with a leading `_`
+- `@typescript-eslint/naming-convention` – enforce naming for private members (properties: camelCase with leading `_`; methods: camelCase without leading `_`)
 - `indent` – 2-space indentation
 - `prefer-const` – warn when `let` can be `const`
 
