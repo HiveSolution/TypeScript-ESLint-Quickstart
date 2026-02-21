@@ -113,6 +113,7 @@ TypeScript-ESLint-Quickstart/
 - **Target**: `node20`
 - **Output**: `dist/` (cleaned before each build)
 - **Sourcemaps**: enabled
+- **Declaration files**: enabled
 
 ### ESLint (`eslint.config.mjs`)
 
