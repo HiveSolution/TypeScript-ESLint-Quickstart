@@ -16,6 +16,9 @@
   "engines": {
     "node": ">=20.9.0"
   },
+  "overrides": {
+    "minimatch": "^10.2.1"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/node": "^20.17.14",
